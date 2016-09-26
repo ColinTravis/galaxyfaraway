@@ -1,0 +1,32 @@
+
+
+// n is number of stars required
+@function multiple-box-shadow($n) {
+  $value: "#{random(2000)}px #{random(2000)}px #FFF";
+
+  @for $i from 2 through $n {
+    $value: "#{$value} , #{random(2000)}px #{random(2000)}px #FFF";
+  }
+
+  @return unquote($value);
+}
+
+$shadows-small: multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
+$shadows-big: multiple-box-shadow(100);
+
+
+// ==============STARFIELD=========
+
+//from the wonderful Kushagra at https://goo.gl/qECnzf
+
+
+// n is number of shadows required
+// @function multiple-text-shadow ($n, $color) {
+//   $value: '-1px 0 0 #{$color}';
+//   @for $i from 2 through $n {
+//     $value: '#{$value} , #{$i * -1}px 0 0 ' + darken($color, $i);
+//   }
+//
+//   @return unquote($value);
+// }
