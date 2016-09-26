@@ -1,4 +1,5 @@
 # Ignore docs files
+.sass-cache
 styles/.sass-cache
 styles/.sass-cache/*
 images/ai
