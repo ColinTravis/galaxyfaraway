@@ -1,7 +1,6 @@
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ * Import this file using the following HTML or equivalent:*/
 /* line 17, ../../../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,32 +66,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 html {
   box-sizing: border-box;
 }
-/* line 12, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 html *::before {
   box-sizing: border-box;
 }
-/* line 13, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 html *::after {
   box-sizing: border-box;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 body {
   background-color: #0B0021;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 .main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .container {
   flex: 1;
   display: flex;
@@ -102,11 +101,11 @@ body {
   overflow: hidden;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .content {
   flex: 1;
 }
-/* line 38, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .content p {
   font-family: 'Josefin Sans';
   font-weight: 100;
